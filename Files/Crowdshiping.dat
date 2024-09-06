@@ -1,0 +1,8 @@
+/*********************************************
+ * OPL 22.1.0.0 Data
+ * Author: GityPakhsh
+ * Creation Date: Feb 17, 2024 at 4:32:30 PM
+ *********************************************/
+SheetConnection connect ("Numbers.xlsx");
+cost from SheetRead(connect, "cost!A1:N14");
+time from SheetRead(connect, "time!A1:N14");
